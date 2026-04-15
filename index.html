@@ -45,6 +45,11 @@
     ]
   }
   </script>
+  <link rel="manifest" href="manifest.json"/>
+    <meta name="theme-color" content="#1a1205"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="Prof. Pankaj Jain"/>
+    <link rel="apple-touch-icon" href="assets/profile.jpg"/>
 </head>
 <body>
 
@@ -740,6 +745,10 @@ const navObserver = new IntersectionObserver((entries) => {
 
 sections.forEach(s => navObserver.observe(s));
 </script>
-
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  }
+</script>
 </body>
 </html>
