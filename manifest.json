@@ -1,0 +1,27 @@
+{
+  "name": "Prof. Pankaj Jain, PhD",
+  "short_name": "Prof. Pankaj Jain",
+  "description": "Scholar of Indian Knowledge Systems, Jain Studies, Dharma Traditions & Religion and Ecology. Professor & Director, The India Centre, FLAME University.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1205",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/profile.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/profile.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "books"],
+  "lang": "en-IN",
+  "scope": "/"
+}
